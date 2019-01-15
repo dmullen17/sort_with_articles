@@ -1,0 +1,39 @@
+html {
+    box-sizing: border-box;
+    font-family: fantasy, sans-serif;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: linear-gradient(rgba(0, 0, 0, .01), rgba(0, 0, 0, .3)), url(hanny-naibaho-388579-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul {
+    list-style: inside square;
+    padding: 0;
+    width: 30vw;
+    background: rgba(255, 255, 255, .7);
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, .1); 
+}
+
+li {
+    padding: 10px 10px 4px 10px;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+li:last-child {
+    border-bottom: 0;
+}
